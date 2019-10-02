@@ -30,9 +30,9 @@ public class ImmutableClass {
 
 
  class Immutable{
-	private int a;
-	private int b;
-	private char[] str;
+	private final int a;
+	private final int b;
+	private final char[] str;
 	private final Age age;
 	
 	Immutable(int a, int b, char[] str, Age age)
